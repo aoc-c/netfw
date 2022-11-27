@@ -1,0 +1,7 @@
+#!/data/data/com.termux/files/usr/bin/bash
+apt upgrade -y
+apt update -y
+pkg upgrade -y
+pkg update -y
+pip install colorfull -y
+alias netfw="python /data/data/com.termux/files/home/netfw/netfw.py"
